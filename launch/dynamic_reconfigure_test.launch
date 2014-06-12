@@ -1,0 +1,5 @@
+<launch>
+  <rosparam command="load" file="$(find ros_test)/config/dynamic_reconfigure_test.yaml"/>
+
+  <node pkg="ros_test" type="dynamic_reconfigure_test" name="dynamic_reconfigure_test" output="screen"/>
+</launch>
